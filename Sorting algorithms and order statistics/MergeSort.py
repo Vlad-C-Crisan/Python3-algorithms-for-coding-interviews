@@ -8,7 +8,9 @@ example https://stackoverflow.com/questions/10342890/merge-sort-time-and-space-c
 
 The file contains the following functions
     * merge_sort - recursive function that takes as input an array, a start index and an end index,
-    and sorts the input array between the two given indices (inclusive) in ascending order
+    and sorts the input array between the two given indices (inclusive) in ascending order. The function
+    is designed to have default arguments, so that it can also be called in the natural way, by giving it
+    only the array as input, when we want to sort the entire array.
 
     * merge - auxiliary function used by merge_sort; it takes as input an array and three indices
     start, middle, end and assumes that the input array is sorted in ascending order
@@ -22,7 +24,10 @@ The file also contains the TestMergeSort class, which provides several test case
 import unittest
 
 
-def merge_sort(arr, start_index, end_index):
+def merge_sort(arr, start_index=0, end_index=None):
+    if end_index is None:
+        end_index = len(arr) - 1
+
     if start_index < end_index:
         middle_index = (start_index + end_index) // 2
         merge_sort(arr, start_index, middle_index)
