@@ -9,7 +9,9 @@ https://en.wikipedia.org/wiki/Quicksort#Space_complexity for more details.
 
 The file contains the following functions
     * quick_sort - recursive function that takes as input an array, a start index and an end index,
-    and sorts the input array between the two given indices (inclusive) in ascending order
+    and sorts the input array between the two given indices (inclusive) in ascending order. The function is designed
+    to have default arguments, so that it can also be called in the natural way by simply giving it only the array as
+    input, when we want to sort the entire array.
 
     * randomized_partition - auxiliary function used by quick_sort; it takes as input an array and two indices
     start_index, and end_index; it selects a random element (pivot) of the array that lies between the two input
@@ -24,7 +26,10 @@ import random
 import unittest
 
 
-def quick_sort(arr, start_index, end_index):
+def quick_sort(arr, start_index=0, end_index=None):
+    if end_index is None:
+        end_index = len(arr)-1
+
     if start_index < end_index:
         partition_index = randomized_partition(arr, start_index, end_index)
         quick_sort(arr, start_index, partition_index - 1)
