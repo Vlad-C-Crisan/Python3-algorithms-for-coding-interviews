@@ -1,9 +1,5 @@
 """ A Python3 implementation of various versions of Breadth First Search (BFS) algorithm
 
-The algorithms can be run on both directed and undirected graphs. In this file,
-the class Graph constructs an undirected graph as adjacency list. To transform it into a
-directed graph, simply modify the method add_edge inside the Graph class.
-
 The file contains the following classes:
     Graph - implementation of a graph using adjacency list
 
