@@ -21,7 +21,7 @@ The MIT Press.
 
 # [Graph Algorithms](../tree/master/Graph%20Algorithms)
 
-## [Bellman-Ford algorithm](../blob/master/Graph%20Algorithms/bellman_ford.py)
+## [Bellman-Ford algorithm](../master/Graph%20Algorithms/bellman_ford.py)
 
 Bellman–Ford algorithm computes the shortest paths from a single source vertex to all of the other vertices in a weighted, directed graph. Unlike Dijkstra's algorithm, Bellman-Ford allows for negative weights, at the cost of higher time complexity.
 
