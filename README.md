@@ -3,12 +3,18 @@
 [Overview](#overview)
 
 [Graph Algorithms](#graph-algorithms)
-	- [Breadth First Search (BFS)](#breadth-first-search-algorithm)
-	- [Depth First Search (DFS)](#depth-first-search-algorithm)
-	- [Topological Sorting](#topological-sorting-algorithm)
-	- [Bellman-Ford](#bellman-ford-algorithm)
-	- [Dijkstra's algorithm](#dijkstra-algorithm)
-	- [Minimum Spanning trees (Prim's algorithm)](#minimum-spanning-trees)
+
+1. [Breadth First Search (BFS)](#breadth-first-search-algorithm)
+
+2. [Depth First Search (DFS)](#depth-first-search-algorithm)
+
+3. [Topological Sorting](#topological-sorting-algorithm)
+
+4. [Bellman-Ford](#bellman-ford-algorithm)
+
+5. [Dijkstra's algorithm](#dijkstra-algorithm)
+
+6. [Minimum Spanning trees (Prim's algorithm)](#minimum-spanning-trees)
 
 
 # Overview
