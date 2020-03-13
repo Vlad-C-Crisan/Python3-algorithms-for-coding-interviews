@@ -19,7 +19,7 @@ Cormen, T. H., Leiserson, C. E., Rivest, R. L., Stein, C. (2009).
 Introduction to Algorithms, 3rd edition.
 The MIT Press.
 
-# [Graph Algorithms](../tree/master/Graph%20Algorithms)
+# [Graph Algorithms](../master/Graph%20Algorithms)
 
 ## [Bellman-Ford algorithm](../master/Graph%20Algorithms/bellman_ford.py)
 
