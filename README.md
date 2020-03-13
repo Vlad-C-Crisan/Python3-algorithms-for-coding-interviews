@@ -1,8 +1,8 @@
 # Python3-algorithms-for-coding-interviews
 
--[Overview](#-overview)
+[Overview](#-overview)
 
--[Graph Algorithms](#-graph-algorithms)
+[Graph Algorithms](#-graph-algorithms)
 
 
 # Overview
