@@ -1,14 +1,5 @@
 """ Python3 implementation of Bellman-Ford algorithm (single source shortest paths to all nodes).
 
-The algorithm runs in O(VE) time. For a detailed analysis of this and the proof of correctness,
-see for example Chapter 24.1 in 3rd edition of Cormen - Introduction to Algorithms.
-
-The below implementation of the Bellman-Ford algorithm assumes that the Graph is
-implemented as adjacency list stored as dictionary and that it contains a set of 
-distances (costs) stored as dictionary where the keys are node tuples (source_node, target_node)
-and the values are represented by the distances between the nodes. See the below 
-implementation of the class Graph.
-
 The file contains the following functions
     * initialize - auxiliary function used by the Bellman-Ford algorithm;
     it takes as input a graph and a source, and initializes a dictionary of distances and a
