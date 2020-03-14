@@ -1,19 +1,14 @@
 """Python3 implementations of the recursive and iterative versions of the Depth First Search (DFS) algorithm
-
 The algorithms can be run on both directed and undirected graphs. In this file,
 the class Graph constructs an undirected graph as adjacency list. To transform it into a
 directed graph, simply modify the method add_edge inside the Graph class.
-
 The file contains the following classes:
     Graph - implementation of a graph using adjacency list
-
     TestDFS - test cases for the two implementations of the DFS algorithm
-
 The file contains the following functions
     * recursive_dfs - recursive function that takes as input a graph, a source node, and
         a target node, and returns a boolean indicating whether there is a path from source
         to target in the given graph
-
     * iterative_dfs - a non-recursive implementation (using stack) of DFS, that takes as input a graph,
         a source node and a target node, and returns a boolean indicating whether there is a path from
         source to target in the given graph"""
@@ -25,31 +20,21 @@ import unittest
 class Graph:
     """
     An implementation of an undirected graph using adjacency list representation
-
     Attributes
     ----------
-
         nodes : set
             a set consisting of all the nodes in the graph
-
         edges : dict
             a dictionary storing all edges, in the format node : [list of neighboring nodes]
-
-
     Methods
     ----------
-
         add_node(node)
             adds node to graph
-
         add_edge (node_1, node_2)
             adds node_1 and node_2 to the graph
             adds the edge between node_1 and node_2
             adds node_2 to the neighbors of node_1
             adds node_1 to the neighbors of node_2
-
-
-
     """
     def __init__(self):
         self.nodes = set()
