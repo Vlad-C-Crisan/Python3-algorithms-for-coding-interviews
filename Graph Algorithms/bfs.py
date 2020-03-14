@@ -141,9 +141,12 @@ def bfs_all_graph(graph):
     return connected_components
 
 
-def bfs_all_aux(graph, source, visited=set()):
+def bfs_all_aux(graph, source, visited=None):
     if source not in graph.nodes:
         raise ValueError('The given source node is not in the graph')
+
+    if visited is None:
+        visited = set()
 
     previous_on_path = {source: None}
     nodes_queue = deque()
